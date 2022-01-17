@@ -1,0 +1,15 @@
+header {
+	height: 200px;
+	position: fixed;
+}
+nav {
+	width:15%;
+	position:fixed;      
+	top: 230px;
+}
+section {
+	padding-top: 230px;
+}
+ol {
+	padding-left:30px;
+}

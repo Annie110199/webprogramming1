@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Шашки</title> 
+<link rel="stylesheet" href="background.css" media="all">
+<link rel="stylesheet" href="game.css">
+<script src="script_game.js"></script>
+</head>
+<body> 
+<div id="page">
+<header>
+<h1>
+Игра
+</h1>
+</header>
+
+<nav>
+<h3>
+Главное меню
+</h3>
+<ul>
+  <li> <a href="index.html">К началу</a></li>
+  <li> <a href="rule_game.html">Правила игры</a></li>
+</ul>
+</nav>
+<section>
+<h1>Шашки</h1>
+<br>
+<table>
+	<tr>
+		<th class = "position";>8</th>
+		<th id = "A8"; class="light";></th>
+		<th id = "B8"; class="dark";><img id="b1"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "C8"; class="light";></th>
+		<th id = "D8"; class="dark";><img id="b2"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "E8"; class="light";></th>
+		<th id = "F8"; class="dark";><img id="b3"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "G8"; class="light";></th>
+		<th id = "H8"; class="dark";><img id="b4"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+	</tr>
+	<tr>
+		<th class = "position";>7</th>
+		<th id = "A7"; class="dark";><img id="b5"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "B7"; class="light";></th>
+		<th id = "C7"; class="dark";><img id="b6"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "D7"; class="light";></th>
+		<th id = "E7"; class="dark";><img id="b7"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "F7"; class="light";></th>
+		<th id = "G7"; class="dark";><img id="b8"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "H7"; class="light";></th>
+	</tr>
+	<tr>
+		<th class = "position";>6</th>
+		<th id = "A6"; class="light";></th>
+		<th id = "B6"; class="dark";><img id="b9"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "C6"; class="light";></th>
+		<th id = "D6"; class="dark";><img id="b10"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "E6"; class="light";></th>
+		<th id = "F6"; class="dark";><img id="b11"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+		<th id = "G6"; class="light";></th>
+		<th id = "H6"; class="dark";><img id="b12"; class="cheker"; src="https://cdn-icons-png.flaticon.com/512/0/14.png";
+onclick="clickCheker(id)";></th>
+	</tr>
+	<tr>
+		<th class = "position";>5</th>
+		<th id = "A5"; class="dark";></th>
+		<th id = "B5"; class="light";></th>
+		<th id = "C5"; class="dark";></th>
+		<th id = "D5"; class="light";></th>
+		<th id = "E5"; class="dark";></th>
+		<th id = "F5"; class="light";></th>
+		<th id = "G5"; class="dark";></th>
+		<th id = "H5"; class="light";></th>
+	</tr>
+	<tr>
+		<th class = "position";>4</th>
+		<th id = "A4"; class="light";></th>
+		<th id = "B4"; class="dark";></th>
+		<th id = "C4"; class="light";></th>
+		<th id = "D4"; class="dark";></th>
+		<th id = "E4"; class="light";></th>
+		<th id = "F4"; class="dark";></th>
+		<th id = "G4"; class="light";></th>
+		<th id = "H4"; class="dark";></th>
+	</tr>
+	<tr>
+		<th class = "position";>3</th>
+		<th id = "A3"; class="dark";><img id="w12"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "B3"; class="light";></th>
+		<th id = "C3"; class="dark";><img id="w11"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "D3"; class="light";></th>
+		<th id = "E3"; class="dark";><img id="w10"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "F3"; class="light";></th>
+		<th id = "G3"; class="dark";><img id="w9"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "H3"; class="light";></th>
+	</tr>
+	<tr>
+		<th class = "position";>2</th>
+		<th id = "A2"; class="light";></th>
+		<th id = "B2"; class="dark";><img id="w8"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "C2"; class="light";></th>
+		<th id = "D2"; class="dark";><img id="w7"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "E2"; class="light";></th>
+		<th id = "F2"; class="dark";><img id="w6"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "G2"; class="light";></th>
+		<th id = "H2"; class="dark";><img id="w5"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+	</tr>
+	<tr>
+		<th class = "position";>1</th>
+		<th id = "A1"; class="dark";><img id="w4"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "B1"; class="light";></th>
+		<th id = "C1"; class="dark";><img id="w3"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "D1"; class="light";></th>
+		<th id = "E1"; class="dark";><img id="w2"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg";
+onclick="clickCheker(id)";></th>
+		<th id = "F1"; class="light";></th>
+		<th id = "G1"; class="dark";><img id="w1"; class="cheker"; src="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg"; onclick="clickCheker(id)"; ></th>
+		<th id = "H1"; class="light";></th>
+	</tr>
+	<tr>
+		<th class = "position";></th>
+		<th class = "position";>A</th>
+		<th class = "position";>B</th>
+		<th class = "position";>C</th>		
+		<th class = "position";>D</th>
+		<th class = "position";>E</th>
+		<th class = "position";>F</th>
+		<th class = "position";>G</th>
+		<th class = "position";>H</th>
+	</tr>
+</table>
+<br>
+
+</section>
+
+</div>
+</body>
+</html>

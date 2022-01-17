@@ -1,0 +1,36 @@
+header {
+	height: 100px;
+	position: fixed;
+}
+nav {
+	top: 130px;
+	width:15%;  
+	position: fixed;     
+}
+section {
+	padding-top: 130px;
+}
+table, th, td {
+	border: 1px solid black;
+}
+.position {
+	background-color: #000000;
+	color: #ffffff;
+	width: 70px;
+	height: 70px;
+}
+.light {
+	background-color: #eeeeee;
+	width: 70px;
+	height: 70px;
+}
+
+.dark {
+	background-color: #111111;
+	width: 70px;
+	height: 70px;
+}
+.cheker {
+	width: 60px;
+	height: 60px;
+}

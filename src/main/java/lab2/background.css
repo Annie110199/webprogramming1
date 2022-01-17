@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding:0;
+  }
+#page {
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+header{
+	width:100%;
+	background: url(https://images.freeimages.com/images/large-previews/39d/the-game-1316534.jpg) no-repeat;
+	background-size: 100% 900px;	
+	color:white;
+	text-align:center;
+	padding: 15px;
+}
+nav {
+	background-color:#dddddd;
+	height:300px;
+	float:left;
+	padding:10px;	
+	clear:both;
+}
+nav>ul {
+	padding:10px;
+}
+section {
+	background-color:#eeeeee;
+	width:83%;
+	float:right;
+	padding:5px;    
+}
+footer {
+	color:white;
+	clear:both;
+	text-align:center;
+	padding:5px; 
+}
+h3 {
+	color:#191970;
+}
